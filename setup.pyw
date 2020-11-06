@@ -37,7 +37,7 @@ def get_codes(URL):
 def run_tasks():
     try:
         subprocess.check_call([sys.executable, "tasks.py"])
-        subprocess.check_call([sys.executable, "email.py"])
+        subprocess.check_call([sys.executable, "mail.py"])
 
     except Exception as e:
         print(e)
