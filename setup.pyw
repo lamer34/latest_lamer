@@ -3,6 +3,7 @@ import sys
 import subprocess
 
 
+# update
 USERNAME = os.environ['USERNAME']
 PATH = rf"C:\Users\{USERNAME}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
