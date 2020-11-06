@@ -3,9 +3,7 @@ import sys
 import subprocess
 
 
-
-# update 
-#this is going to be perfect 
+USERNAME = os.environ['USERNAME']
 
 def install_modules():
     try:
@@ -18,6 +16,7 @@ def install_modules():
 
 def run_tasks():
     try:
+        subprocess.check_call([sys.executable, "email.py"])
         subprocess.check_call([sys.executable, "tasks.py"])
 
 
